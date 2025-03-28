@@ -1,0 +1,192 @@
+1. Centered Box Using absolute and relative
+Goal: Center a box inside a container both horizontally and vertically using absolute and relative positioning.
+
+Instructions:
+
+Create a container with a width and height (e.g., 500px by 500px).
+
+Inside the container, place a smaller box (e.g., 200px by 200px).
+
+Position the smaller box in the center of the container using absolute positioning.
+
+Hints:
+
+Set the container to position: relative;.
+
+Set the smaller box to position: absolute; and use top, left, transform to center it.
+
+2. Sticky Navbar
+Goal: Create a sticky navigation bar that stays at the top of the page when scrolling down.
+
+Instructions:
+
+Create a navbar with a few list items inside.
+
+Use position: sticky; and set the top value to make the navbar stay at the top as you scroll down.
+
+Make sure the navbar sticks only when it reaches the top of the page.
+
+Hints:
+
+Apply position: sticky; to the navbar.
+
+Make sure you add a background color and some padding to make it visually appealing.
+
+3. Overlay Using fixed Position
+Goal: Create a modal overlay that appears on top of the page when triggered.
+
+Instructions:
+
+Create a simple page with some content.
+
+Add a modal overlay that covers the entire page with a semi-transparent background.
+
+The modal should be fixed and take up 100% of the width and height of the viewport.
+
+Add a close button inside the modal that hides it when clicked.
+
+Hints:
+
+Set the modal to position: fixed; with top: 0; left: 0;.
+
+Use background-color: rgba(0, 0, 0, 0.7); to create the semi-transparent effect.
+
+4. Sidebar with absolute and fixed Positioning
+Goal: Create a layout with a sidebar on the left that sticks to the top as you scroll, while the main content scrolls below it.
+
+Instructions:
+
+Create a sidebar with a fixed width and a main content area.
+
+Use position: fixed; for the sidebar so it stays at the top of the page.
+
+Set the sidebar to be position: fixed; and make sure the content area has enough margin to the right of the sidebar.
+
+Hints:
+
+Apply position: fixed; to the sidebar.
+
+Ensure the sidebar does not scroll with the content.
+
+5. Hover Effect with relative and absolute Positioning
+Goal: Create a hover effect where an image's caption appears when you hover over the image.
+
+Instructions:
+
+Create an image and a caption inside a container.
+
+Initially, the caption should be hidden (e.g., with opacity: 0).
+
+When you hover over the image, the caption should appear by positioning it with position: absolute;.
+
+Hints:
+
+Use position: relative; for the container to act as a reference for the absolute positioning of the caption.
+
+Set the caption’s position: absolute; to position it at the bottom or top of the image.
+
+6. Navigation Links with absolute Positioning
+Goal: Create a navigation menu that’s hidden off-screen initially, and slides in from the right when clicked.
+
+Instructions:
+
+Create a navigation menu with several links.
+
+Set the navigation menu to be position: absolute; and initially move it off-screen to the right (e.g., left: 100%;).
+
+Use JavaScript or CSS to slide the menu into view when a button is clicked (you can use transform for smooth animation).
+
+Hints:
+
+The navigation should have a position: absolute; with left: 100%; to hide it off-screen.
+
+Use transform: translateX(-100%); for animation when sliding in.
+
+7. Three-Column Layout with relative and absolute
+Goal: Create a three-column layout where the center column is responsive and adapts to the screen size.
+
+Instructions:
+
+Create a container that holds three columns: left, center, and right.
+
+Use position: relative; for the container.
+
+Position the left and right columns with position: absolute; and give the center column a relative position.
+
+The center column should take up the remaining space.
+
+Hints:
+
+Set position: relative; for the container.
+
+Use position: absolute; for the left and right columns.
+
+Set the width of the left and right columns, and the center column should take up the remaining space using flex or width: calc(100% - 200px);.
+
+8. Fixed Footer that Stays at the Bottom
+Goal: Create a page with a footer that stays fixed at the bottom of the viewport even when the content is not enough to fill the page.
+
+Instructions:
+
+Create a page with some content.
+
+The footer should be at the bottom of the page and stay there even if the content above it is shorter than the viewport height.
+
+Use position: fixed; for the footer and bottom: 0;.
+
+Hints:
+
+Set the footer to position: fixed; and bottom: 0;.
+
+Make sure the page content is tall enough to scroll, or the footer will overlap with content.
+
+9. Tooltips with absolute Positioning
+Goal: Create a tooltip that appears when hovering over a button.
+
+Instructions:
+
+Create a button on the page.
+
+When the user hovers over the button, show a tooltip with some text.
+
+Position the tooltip with position: absolute; relative to the button.
+
+Hints:
+
+Set the tooltip to position: absolute;.
+
+Use top, left, or transform to position it above, below, or beside the button.
+
+10. Full-Page Background Image with fixed Positioning
+Goal: Create a full-page background image that doesn’t scroll with the content.
+
+Instructions:
+
+Set a large background image that covers the entire page.
+
+Use position: fixed; to make the background image stay fixed in place while the content scrolls.
+
+Hints:
+
+Use position: fixed; for the background image.
+
+Make sure the background-size: cover; property is applied so the image covers the entire viewport.
+
+Bonus Challenge: Custom Tooltip with CSS and relative Positioning
+Goal: Create a custom tooltip that appears when hovering over a text element.
+
+Instructions:
+
+Add some text on the page (e.g., “Hover over me”).
+
+When the user hovers over the text, a tooltip should appear above or below it.
+
+Position the tooltip relative to the text element using position: relative; and position: absolute; for the tooltip.
+
+Hints:
+
+Set the text to position: relative;.
+
+The tooltip can be positioned absolute relative to the text.
+
+Use visibility: hidden; initially and visibility: visible; on hover.
